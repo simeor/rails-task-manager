@@ -1,0 +1,48 @@
+/*
+ *= require font-awesome
+ */
+
+
+body{
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+li a{
+  color:#fff;
+  text-decoration: none;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+ ul{
+  list-style-type: none;
+  padding-left: 0;
+  width:30%;
+ }
+
+ li{
+  display: block;
+  background-color: #3d5af1;
+  color: #fff;
+  width: 100%;
+  padding: 8px;
+  margin: 4px;
+ }
+
+ .fa-trash-alt{
+  float: right;
+ }
+
+
+ .create{
+  background-color: #3d5af1;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 16px;
+ }
